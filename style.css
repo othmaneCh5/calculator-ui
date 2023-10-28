@@ -1,0 +1,228 @@
+body{
+    display: flex;
+}
+#container{
+    flex: 1;
+    height: 900px;
+    border: 19px solid #2F4F4F;
+    margin: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#container .sect{
+    flex: 1 1 auto;
+    height: 150px;
+}
+#screen{
+    
+    margin: 4px;
+    background-color: gray;
+}
+#first_set_of_buttons {
+    display: flex;
+    gap: 4px;
+    margin: 4px;
+}
+#first_set_of_buttons .but1{
+    flex: 1 1 auto;
+    width: 25%;
+    
+    border-radius: 10px;
+}
+#second_set_of_buttons {
+    display: flex;
+    gap: 4px;
+    margin: 4px;
+}
+#second_set_of_buttons .but2{
+    flex: 1 1 auto;
+    width: 25%;
+    
+    border-radius: 10px;
+}
+#third_set_of_buttons {
+    display: flex;
+    gap: 4px;
+    margin: 4px;
+}
+#third_set_of_buttons .but3{
+    flex: 1 1 auto;
+    width: 25%;
+    
+    border-radius: 10px;
+}
+#fourth_set_of_buttons {
+    display: flex;
+    gap: 4px;
+    margin: 4px;
+}
+#fourth_set_of_buttons .but4{
+    flex: 1 1 auto;
+    width: 25%;
+    
+    border-radius: 10px;
+}
+#fifth_set_of_buttons {
+    display: flex;
+    gap: 4px;
+    margin: 4px;
+}
+#fifth_set_of_buttons #zero{
+    flex: 2 1 auto;
+    width: 90px;
+    
+}
+#fifth_set_of_buttons .but5{
+    flex: 1 1 auto;
+    border-radius: 10px;
+    
+    width: 40px;
+}
+
+.zero-button{
+    background-color: #005f69;
+    width: 645px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.point-button{
+    background-color: #005f69;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.equals-button{
+    background-color: #FFAC1C;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.one-button{
+    background-color: #005f69;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.two-button{
+    background-color: #005f69;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.three-button{
+    background-color: #005f69;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.plus-button{
+    background-color: #FFAC1C;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.four-button{
+    background-color: #005f69;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.five-button{
+    background-color: #005f69;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.six-button{
+    background-color: #005f69;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.minus-button{
+    background-color: #FFAC1C;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.seven-button{
+    background-color: #005f69;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.eight-button{
+    background-color: #005f69;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.nine-button{
+    background-color: #005f69;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.multiply-button{
+    background-color: #FFAC1C;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.AC-button{
+    background-color: #1ca9c9;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.negative-button{
+    background-color: #1ca9c9;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.modulo-button{
+    background-color: #1ca9c9;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+.division-button{
+    background-color: #FFAC1C;
+    width: 320px;
+    margin: 0%;
+    height: 140px;
+    border-radius: 10px;
+}
+button{
+    font-size: 30px;
+    font-weight: bold;
+}
+.output{
+    font-size:150px;
+    position: absolute;
+    bottom: 430px; 
+
+    
+    
+    
+}

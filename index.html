@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" > 
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div class="sect" id="screen"></div>
+        <div class="sect" id="first_set_of_buttons">
+            <div class="but1" >
+                <button onclick="AC();" class="AC-button">AC</button>
+            </div>
+            <div  class="but1" >
+                <button onclick="negative();"class="negative-button">+/-</button>
+            </div>
+            <div class="but1" >
+                <button onclick="modulo();" class="modulo-button">%</button>
+            </div>
+            <div class="but1" >
+                <button onclick="division();" class="division-button">/</button>
+            </div>
+        </div>
+        <div class="sect" id="second_set_of_buttons">
+            <div class="but2" >
+                <button onclick="seven();" class="seven-button">7</button>
+            </div>
+            <div  class="but2" >
+                <button onclick="eight();" class="eight-button">8</button>
+            </div>
+            <div class="but2" >
+                <button onclick="nine();" class="nine-button">9</button>
+            </div>
+            <div class="but2" >
+                <button onclick="multiplication();" class="multiply-button">*</button>
+            </div>
+        </div>
+        <div class="sect" id="third_set_of_buttons">
+            <div class="but3" >
+                <button onclick="four();" class="four-button">4</button>
+            </div>
+            <div  class="but3" >
+                <button onclick="five();" class="five-button">5</button>
+            </div>
+            <div class="but3" >
+                <button onclick="six();" class="six-button">6</button>
+            </div>
+            <div class="but3" >
+                <button onclick="minus();" class="minus-button">-</button>
+            </div>
+        </div>
+        <div class="sect" id="fourth_set_of_buttons">
+            <div class="but4" >
+                <button onclick="one();" class="one-button">1</button>
+            </div>
+            <div  class="but4" >
+                <button onclick="two();" class="two-button">2</button>
+            </div>
+            <div class="but4" >
+                <button onclick="three();" class="three-button">3</button>
+            </div>
+            <div class="but4" >
+                <button onclick="plus();" class="plus-button">+</button>
+            </div>
+        </div>
+        <div class="sect" id="fifth_set_of_buttons">
+            <div class="but5" id="zero" >
+                <button onclick="zero();" class="zero-button">0</button>
+            </div>
+            <div  class="but5" id="point" >
+                <button onclick="point();" class="point-button">.</button>
+            </div>
+            <div class="but5" >
+                <button onclick="equals();" class="equals-button">=</button>
+            </div>
+            
+        </div>
+       
+    </div>
+</body>
+</html>
