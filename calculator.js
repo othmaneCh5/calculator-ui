@@ -77,7 +77,7 @@ function plus(){
     if(output.textContent==='0'){output.textContent=''}
     output.textContent=output.textContent+'+';
 }
-function multiply(){
+function multiplication(){
     if(output.textContent==='0'){output.textContent=''}
     output.textContent=output.textContent+'*';
 }
